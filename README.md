@@ -15,10 +15,15 @@ Ayrıca lib dosyasının içindeki ......_spec.rb dosyasının içine
     #spec/lib/...._spec.rb dosyasının içine yukarıdaki kodlar kendi kodlarına uygın şekilde yazılmalı.
 
 
-spec/lib/......_spec.rb                      lib/zombie.rb
+spec/lib/......_spec.rb                     
 
 require "spec_helper"
-require " zombie "          		             class Zombie
+require " zombie "          		          
   describe Zombie do
-    it "örnek isim"				                   end
+    it "örnek isim"				               
   end
+  
+   lib/zombie.rb
+   
+   class Zombie
+   end
